@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   CSS RESET
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* */
+
+section {
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: 20px 20px 40px 20px;
+}
+
+footer {
+    background-color: #2d2f3b;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.info-section {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    max-width: 700px;
+    min-width: 300px;
+    box-shadow: 0 2px 6px #b1cae2,
+    0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    background: white;
+    padding: 60px 20px;
+    text-align: center;
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 60px;
+    box-shadow: 0 1px 4px rgba(175, 167, 208, 0.6);
+}
+
+form h2 {
+    margin-top: -10px;
+    margin-bottom: 60px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 5px;
+    margin-left: -100px;
+}
+
+textarea, input {
+    width: 200px;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#contact-button {
+    border-width: 0;
+    border-radius: 2px;
+    
+    padding: 10px 20px;
+    margin: 20px;
+
+    background: cornflowerblue;
+    color: #ecf0f1;
+
+    box-shadow: 1px 1px royalblue;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+#contact-button:hover {
+    background: red;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
